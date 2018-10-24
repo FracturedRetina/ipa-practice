@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>IPA Practice</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="vowels.css" />
+		<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<p id="word-given">word</p>
+			<div id="ipa-keyboard">
+				<div id="ipa-keyboard-vowels">
+					<div id="group-close" class="ipa-vowel-group">
+						<div id="front-close" class="vowel-pair">
+							<button class="keyboard vowel english">i</button>
+							<button class="keyboard vowel foreign">y</button>
+						</div>
+						<div id="central-close" class="vowel-pair">
+							<button class="keyboard vowel foreign">ɨ</button>
+							<button class="keyboard vowel foreign">ʉ</button>
+						</div>
+						<div id="back-close" class="vowel-pair">
+							<button class="keyboard vowel foreign">ɯ</button>
+							<button class="keyboard vowel foreign">u</button>
+						</div>
+					</div>
+					<div id="group-nearclose" class="ipa-vowel-group">
+						<div id="front-nearclose" class="vowel-pair">
+							<button class="keyboard vowel english">ɪ</button>
+							<button class="keyboard vowel foreign">ʏ</button>
+						</div>
+						<div id="central-nearclose" class="vowel-pair">
+							<button class="keyboard vowel foreign">ɪ̈</button>
+							<button class="keyboard vowel foreign">ʊ̈</button>
+						</div>
+						<div id="back-nearclose" class="vowel-pair">
+							<button class="keyboard vowel foreign">ɯ̽</button>
+							<button class="keyboard vowel english">ʊ</button>
+						</div>
+					</div>
+					<div id="group-closemid" class="ipa-vowel-group">
+						<div id="front-closemid" class="vowel-pair">
+							<button class="keyboard vowel english">e</button>
+							<button class="keyboard vowel foreign">ø</button>
+						</div>
+						<div id="central-closemid" class="vowel-pair">
+							<button class="keyboard vowel foreign">ɘ</button>
+							<button class="keyboard vowel foreign">ɵ</button>
+						</div>
+						<div id="back-closemid" class="vowel-pair">
+							<button class="keyboard vowel foreign">ɤ</button>
+							<button class="keyboard vowel english">o</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button id="submit">Submit</button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+#group-close {
+	top: 2%;
+}
+#front-close {
+	left: 1%;
+}
+#central-close {
+	left: 40.4%;
+}
+#back-close {
+	left: 77.4%;
+}
+
+#group-nearclose {
+	top: 16%;
+}
+#front-nearclose {
+	left: 7%;
+}
+#central-nearclose {
+	left: 43.9%;
+}
+#back-nearclose {
+	left: 77.4%;
+}
+
+#group-closemid {
+	top: 29.6%;
+}
+#front-closemid {
+	left: 13%;
+}
+#central-closemid {
+	left: 45.596%;
+}
+#back-closemid {
+	left: 79%;
+}
