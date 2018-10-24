@@ -137,4 +137,7 @@ $(document).ready(function() {
 		}
 	});
 	$('#submit').click(onSubmit);
+	if ($(window).width() < $('#content').width()) {
+		$('#content').width("95%");
+	}
 });
