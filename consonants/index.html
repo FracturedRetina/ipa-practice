@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>IPA Practice</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div id="content">
+			<p id="score">0/0</p>
+			<h1 id="symbol-given">word</h1>
+			<h2 id="feedback"></h2>
+			<div id="input">
+				<div>
+					<span>Voiced:</span>
+					<input id="voiced" type="checkbox" checked>
+				</div>
+				<div>
+					<span>Place:</span>
+					<select id="place">
+						<option value="bilabial">Bilabial</option>
+						<option value="labio-dental">Labio-Dental</option>
+						<option value="alveolar">Alveolar</option>
+						<option value="interdental">Interdental</option>
+						<option value="palatal">Palatal</option>
+						<option value="velar">Velar</option>
+						<option value="post-alveolar">Post-Alveolar</option>
+						<option value="glottal">Glottal</option>
+					</select>
+				</div>
+				<div>
+					<span>Manner:</span>
+					<select id="manner">
+						<option value="stop">Stop</option>
+						<option value="fricative">Fricative</option>
+						<option value="approximant">Approximant</option>
+						<option value="nasal">Nasal</option>
+						<option value="affricate">Affricate</option>
+					</select>
+				</div>
+			</div>
+			<button id="submit">Submit</button>
+		</div>
+	</body>
+</html>

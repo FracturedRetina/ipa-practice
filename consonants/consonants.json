@@ -1,0 +1,131 @@
+{
+	"p": {
+		"voice": false,
+		"place": "bilabial",
+		"manner": "stop"
+	},
+	"b": {
+		"voice": true,
+		"place": "bilabial",
+		"manner": "stop"
+	},
+	"f": {
+		"voice": false,
+		"place": "labio-dental",
+		"manner": "fricative"
+	},
+	"v": {
+		"voice": true,
+		"place": "labio-dental",
+		"manner": "fricative"
+	},
+	"l": {
+		"voice": true,
+		"place": "alveolar",
+		"manner": "approximant",
+		"airflow": "lateral"
+	},
+	"w": {
+		"voice": true,
+		"place": "bilabial",
+		"manner": "approximant",
+		"airflow": "central"
+	},
+	"m": {
+		"voice": true,
+		"place": "bilabial",
+		"manner": "nasal"
+	},
+	"ɹ": {
+		"voice": true,
+		"place": "alveolar",
+		"manner": "approximant",
+		"airflow": "central"
+	},
+	"t": {
+		"voice": false,
+		"place": "alveolar",
+		"manner": "stop"
+	},
+	"d": {
+		"voice": true,
+		"place": "alveolar",
+		"manner": "stop"
+	},
+	"θ": {
+		"voice": false,
+		"place": "interdental",
+		"manner": "fricative"
+	},
+	"ð": {
+		"voice": true,
+		"place": "interdental",
+		"manner": "fricative"
+	},
+	"s": {
+		"voice": false,
+		"place": "alveolar",
+		"manner": "fricative"
+	},
+	"z": {
+		"voice": true,
+		"place": "alveolar",
+		"manner": "fricative"
+	},
+	"n": {
+		"voice": true,
+		"place": "alveolar",
+		"manner": "nasal"
+	},
+	"j": {
+		"voice": true,
+		"place": "palatal",
+		"manner": "approximant",
+		"airflow": "central"
+	},
+	"k": {
+		"voice": false,
+		"place": "velar",
+		"manner": "stop"
+	},
+	"g": {
+		"voice": true,
+		"place": "velar",
+		"manner": "stop"
+	},
+	"ʃ": {
+		"voice": false,
+		"place": "post-alveolar",
+		"manner": "fricative"
+	},
+	"ʒ": {
+		"voice": true,
+		"place": "post-alveolar",
+		"manner": "fricative"
+	},
+	"tʃ" :{
+		"voice": false,
+		"place": "post-alveolar",
+		"manner": "affricate"
+	},
+	"dʒ" :{
+		"voice": true,
+		"place": "post-alveolar",
+		"manner": "affricate"
+	},
+	"ŋ": {
+		"voice": true,
+		"place": "velar",
+		"manner": "nasal"
+	},
+	"h": {
+		"voice": false,
+		"place": "glottal",
+		"manner": "fricative"
+	},
+	"ʔ": {
+		"voice": false,
+		"place": "glottal",
+		"manner": "stop"
+	}
+}
