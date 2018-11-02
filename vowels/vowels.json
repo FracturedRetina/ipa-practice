@@ -1,0 +1,80 @@
+{
+	"i": {
+		"height": "high",
+		"frontness": "front",
+		"rounded": false,
+		"tense": true
+	},
+	"ɪ": {
+		"height": "high",
+		"frontness": "front",
+		"rounded": false,
+		"tense": false
+	},
+	"e": {
+		"height": "mid",
+		"frontness": "front",
+		"rounded": false,
+		"tense": true
+	},
+	"ɛ": {
+		"height": "mid",
+		"frontness": "front",
+		"rounded": false,
+		"tense": false
+	},
+	"æ": {
+		"height": "low",
+		"frontness": "front",
+		"rounded": false,
+		"tense": false
+	},
+	"ə": {
+		"height": "mid",
+		"frontness": "central",
+		"rounded": false,
+		"tense": false
+	},
+	"ʌ": {
+		"height": "mid",
+		"frontness": "central",
+		"rounded": false,
+		"tense": false
+	},
+	"a": {
+		"height": "low",
+		"frontness": "central",
+		"rounded": false,
+		"tense": true
+	},
+	"u": {
+		"height": "high",
+		"frontness": "back",
+		"rounded": true,
+		"tense": true
+	},
+	"ʊ": {
+		"height": "high",
+		"frontness": "back",
+		"rounded": false,
+		"tense": false
+	},
+	"o": {
+		"height": "mid",
+		"frontness": "back",
+		"rounded": true,
+		"tense": true
+	},
+	"ɔ": {
+		"height": "mid",
+		"frontness": "back",
+		"rounded": true,
+		"tense": false
+	},
+	"ɑ": {
+		"height": "low",
+		"frontness": "back",
+		"rounded": false,
+		"tense": false
+	}
+}
